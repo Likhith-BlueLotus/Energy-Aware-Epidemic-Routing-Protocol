@@ -1,0 +1,304 @@
+================================================================================
+                    QUICK REFERENCE CARD
+        Energy-Aware Epidemic Routing Simulation
+================================================================================
+
+STEP-BY-STEP TO SEE ALL COLOR PHASES:
+====================================
+
+1. Navigate to NS-3 directory:
+   cd /d/BMSCE/Seventh_SEM_CSE/NP/NS3/ns-allinone-3.45/ns-3.45
+
+2. Build the project:
+   ./ns3 build
+
+3. Run the simulation:
+   ./ns3 run energy-aware-epidemic-example
+
+4. Wait ~10 minutes for simulation to complete
+
+5. Open NetAnim and load emergency-communication-network.xml
+
+6. Press Play and watch colors change!
+
+
+WHAT COLORS MEAN:
+================
+
+🟢 GREEN    (100-70%)  = Full energy, normal operation
+🟡 YELLOW   (70-40%)   = Moderate energy, starting to adapt
+🟠 ORANGE   (40-20%)   = Low energy, reduced forwarding
+🔴 RED      (20-1%)    = Critical energy, minimal operation
+⚫ GRAY     (0%)       = Battery depleted, node offline
+
+
+TIMELINE OF COLOR CHANGES:
+==========================
+
+0-2 min    (0-120s):    🟢 All GREEN - Full operation
+2-4 min    (120-240s):  🟢🟡 GREEN → YELLOW transition
+4-6 min    (240-360s):  🟡🟠 YELLOW → ORANGE transition
+6-8 min    (360-480s):  🟠🔴 ORANGE → RED transition
+8-10 min   (480-600s):  🔴⚫ RED → GRAY (first nodes depleting!)
+
+
+KEY PARAMETERS (DEMO MODE):
+==========================
+
+Simulation Time:  600 seconds (10 minutes)
+Initial Energy:   1000 Joules (reduced for faster depletion)
+TX Current:       850mA (50x amplified for demo)
+RX Current:       650mA (50x amplified for demo)
+Idle Current:     200mA (50x amplified for demo)
+Data Rate:        128 kbps
+Comm Pairs:       10 (half the nodes transmitting)
+Energy Reports:   Every 30 seconds
+
+
+WHY REALISTIC VALUES DON'T SHOW COLORS:
+======================================
+
+With realistic WiFi power (17mA TX, 13mA RX):
+- 5000J battery lasts ~100 hours
+- In 5-minute simulation: 99.99% energy remaining
+- NO visible color changes
+
+With demo values (850mA TX, 650mA RX):
+- 1000J battery lasts ~20 minutes
+- In 10-minute simulation: See full depletion cycle
+- ALL color phases visible!
+
+NOTE: Demo values are ONLY for educational visualization.
+      Real deployments use realistic parameters.
+
+
+EXPECTED CONSOLE OUTPUT:
+=======================
+
+✓ "Node X will transmit continuously to Node Y" (10 pairs)
+✓ Energy reports every 30 seconds
+✓ Energy % decreasing: 100% → 90% → 70% → 40% → 20% → 0%
+✓ "Status=OPERATIONAL" changing to "Status=DEPLETED"
+✓ "Nodes Operational: 20/20" changing to "15/20", "10/20", etc.
+✓ "Network Energy Efficiency: 100%" dropping to ~5-10%
+
+✗ If stuck at 99.99% energy - Parameters not applied correctly
+✗ If no "will transmit" messages - Applications not installed
+✗ If "Nodes Operational: 20/20" throughout - Energy not depleting
+
+
+NETANIM CHECKLIST:
+=================
+
+✓ Nodes spread across 500m × 500m (not clustered at origin)
+✓ Nodes moving (Random Waypoint mobility visible)
+✓ Packets shown as lines between nodes
+✓ Node colors changing during playback
+✓ Some nodes turning GRAY before simulation ends
+✓ Node descriptions show energy % (e.g., "Worker 5 [34%]")
+
+
+TROUBLESHOOTING:
+===============
+
+PROBLEM: No color changes
+SOLUTION: Check that simulation completed fully, verify parameters applied
+
+PROBLEM: All nodes same color
+SOLUTION: Play simulation slowly, look for gradual transitions
+
+PROBLEM: Energy stuck at 99.99%
+SOLUTION: Rebuild project, verify energy model parameters (850mA, not 17mA)
+
+PROBLEM: No packets visible
+SOLUTION: Enable packet metadata in NetAnim settings
+
+PROBLEM: Nodes overlapping at origin
+SOLUTION: This was fixed - if still happening, check mobility setup
+
+
+LOGGING COMMANDS:
+================
+
+Basic logging (recommended):
+NS_LOG="EnergyAwareEpidemicRouting=level_info" ./ns3 run energy-aware-epidemic-example
+
+Detailed logging:
+NS_LOG="EnergyAwareEpidemicRouting=level_debug:BasicEnergySource=level_info" \
+./ns3 run energy-aware-epidemic-example
+
+Full logging (very verbose):
+NS_LOG="*=level_all" ./ns3 run energy-aware-epidemic-example > full_log.txt
+
+
+CUSTOMIZING PARAMETERS:
+======================
+
+Change simulation time:
+./ns3 run "energy-aware-epidemic-example --simulationTime=300"
+
+Change initial energy:
+./ns3 run "energy-aware-epidemic-example --initialEnergy=500"
+
+Change number of nodes:
+./ns3 run "energy-aware-epidemic-example --nNodes=30"
+
+Multiple parameters:
+./ns3 run "energy-aware-epidemic-example --nNodes=30 --simulationTime=900 --initialEnergy=1500"
+
+
+FILES GENERATED:
+===============
+
+emergency-communication-network.xml    - NetAnim visualization (1-5 MB)
+emergency-routing-table.xml           - Routing table changes (500KB-2MB)
+
+
+DEMO SCRIPT FOR PRESENTATION:
+=============================
+
+1. Open terminal, navigate to ns-3 directory
+2. Run: ./ns3 run energy-aware-epidemic-example
+3. While running, explain:
+   - 20 rescue workers in disaster area
+   - Battery-powered devices (1000J capacity)
+   - Moving randomly, communicating opportunistically
+   - Energy-aware epidemic routing adapts to battery level
+4. Show console output updating every 30 seconds
+5. After completion, open NetAnim with generated XML
+6. Play simulation and point out:
+   - Green nodes (full energy) at start
+   - Yellow nodes (medium energy) around 2-4 minutes
+   - Orange nodes (low energy) around 4-6 minutes
+   - Red nodes (critical energy) around 6-8 minutes
+   - Gray nodes (depleted) around 8-10 minutes
+7. Explain adaptive behavior:
+   - Green: Transmit/forward everything, 5s beacons
+   - Yellow: Start reducing, 5-10s beacons
+   - Orange: Probabilistic forwarding (50%), 10-20s beacons
+   - Red: Priority only (~10%), 20s beacons
+   - Gray: Offline, no communication
+8. Show energy efficiency drop from 100% to ~5-10%
+9. Demonstrate network fragmentation as nodes deplete
+
+
+ASSESSMENT DOCUMENTATION:
+=========================
+
+Main documentation file:
+ENERGY_AWARE_EPIDEMIC_ROUTING_DOCUMENTATION.txt (54 pages)
+
+Sections included:
+✓ Abstract (150-200 words)
+✓ Objectives
+✓ Introduction
+✓ Methodology/Implementation
+✓ Output and Results
+✓ Analysis/Discussion
+✓ Conclusion
+✓ References (30 citations)
+
+Code location:
+ns-3.45/contrib/epidemic/examples/energy-aware-epidemic-example.cc
+
+Module files:
+- Model: energy-aware-epidemic-routing.{h,cc}
+- Helper: energy-aware-epidemic-helper.{h,cc}
+- Packets: epidemic-packet.{h,cc}, epidemic-packet-queue.{h,cc}
+- Tags: epidemic-tag.{h,cc}
+- Tests: epidemic-test-suite.cc
+
+
+COMPARISON TABLE:
+================
+
+Parameter          | Realistic | Demo (Current)
+-------------------+-----------+---------------
+Simulation Time    | 300s      | 600s
+Initial Energy     | 5000J     | 1000J
+TX Current         | 17mA      | 850mA
+RX Current         | 13mA      | 650mA
+Idle Current       | 4mA       | 200mA
+Data Rate          | 64kbps    | 128kbps
+Comm Pairs         | 5         | 10
+Energy at 300s     | 99.5%     | ~30%
+Color Changes      | None      | All phases
+Depleted Nodes     | 0         | 8-12
+
+
+ENERGY PHASES IN DETAIL:
+========================
+
+Phase 1: NORMAL (GREEN)
+- Energy: 100-70% (1000J → 700J)
+- Duration: 0-120 seconds
+- Beacon Interval: 5 seconds
+- Forwarding: 100% of packets
+- Hop Limit: 10 hops
+- Behavior: Full epidemic routing, maximum replication
+
+Phase 2: MODERATE (YELLOW)
+- Energy: 70-40% (700J → 400J)
+- Duration: 120-240 seconds
+- Beacon Interval: 5-10 seconds (adaptive)
+- Forwarding: 100-50% (transitioning)
+- Hop Limit: 10-5 hops
+- Behavior: Starting to conserve, some adaptations
+
+Phase 3: LOW (ORANGE)
+- Energy: 40-20% (400J → 200J)
+- Duration: 240-360 seconds
+- Beacon Interval: 10 seconds (doubled)
+- Forwarding: 50% (probabilistic)
+- Hop Limit: 5 hops
+- Behavior: Aggressive conservation, reduced service
+
+Phase 4: CRITICAL (RED)
+- Energy: 20-1% (200J → 10J)
+- Duration: 360-480 seconds
+- Beacon Interval: 20 seconds (quadrupled)
+- Forwarding: ~10% (priority only)
+- Hop Limit: 2-3 hops
+- Behavior: Minimal operation, emergency packets only
+
+Phase 5: DEPLETED (GRAY)
+- Energy: 0% (0J)
+- Duration: 480-600 seconds
+- Beacon Interval: None (offline)
+- Forwarding: 0% (no forwarding)
+- Hop Limit: N/A
+- Behavior: Node offline, no communication
+
+
+SUCCESS CRITERIA:
+================
+
+Your simulation is working correctly if you see:
+
+✅ Energy reports showing gradual depletion (not stuck at 99.99%)
+✅ Different nodes depleting at different rates
+✅ Sender nodes (0,2,4,6,8,10,12,14,16,18) depleting faster
+✅ "Nodes Operational" count decreasing over time
+✅ "Network Energy Efficiency" dropping from 100% to ~5-10%
+✅ At least 5-10 nodes reaching DEPLETED (0.0J) status
+✅ All color phases visible in NetAnim: Green → Yellow → Orange → Red → Gray
+✅ Nodes moving in NetAnim (not stationary)
+✅ Packets transmitted between nodes (visible as lines)
+✅ Node descriptions updating with energy percentage
+
+
+CONTACT/SUPPORT:
+===============
+
+Documentation: See ENERGY_AWARE_EPIDEMIC_ROUTING_DOCUMENTATION.txt
+Demo Guide: See README_ENERGY_DEMO.txt
+This Card: QUICK_REFERENCE.txt
+
+NS-3 Documentation: https://www.nsnam.org/documentation/
+NetAnim Guide: https://www.nsnam.org/wiki/NetAnim
+Epidemic Routing: Vahdat & Becker (2000) - See references in main docs
+
+================================================================================
+End of Quick Reference Card
+Last Updated: November 6, 2025
+================================================================================

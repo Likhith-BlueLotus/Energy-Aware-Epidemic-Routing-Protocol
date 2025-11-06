@@ -1,0 +1,419 @@
+================================================================================
+                    NetAnim Routing Table Visualization Guide
+                  Energy-Aware Epidemic Routing Protocol
+================================================================================
+
+IMPORTANT NOTE ABOUT EPIDEMIC ROUTING:
+======================================
+
+Epidemic routing DOES NOT use traditional routing tables like AODV, OLSR, or
+DSDV. Instead, it uses:
+
+1. OPPORTUNISTIC FORWARDING:
+   - Packets stored in local buffer
+   - Forwarded when nodes meet (within transmission range)
+   - No predetermined routes or next-hop information
+
+2. ANTI-ENTROPY MECHANISM:
+   - Nodes exchange summary vectors (list of packet IDs)
+   - Calculate disjoint packets (what the other node doesn't have)
+   - Transfer missing packets bidirectionally
+
+3. STORE-AND-FORWARD:
+   - Packets may be stored for extended periods
+   - Multiple copies created for redundancy
+   - Delivery when destination encountered
+
+Therefore, the "routing table" in epidemic routing shows:
+- Energy status (critical for energy-aware routing)
+- Buffer contents (packet queue status)
+- Recent node contacts (opportunistic encounter history)
+- Adaptive protocol parameters (beacon intervals, hop limits)
+
+
+WHY NETANIM ROUTING TABLE APPEARS EMPTY:
+========================================
+
+NetAnim's routing table viewer expects traditional routing entries like:
+┌──────────────┬─────────┬───────────┬───────────┐
+│ Destination  │ Gateway │ Interface │ Metric    │
+├──────────────┼─────────┼───────────┼───────────┤
+│ 10.1.1.5     │ 10.1.1.2│ eth0      │ 2 hops    │
+│ 10.1.1.8     │ 10.1.1.3│ eth0      │ 3 hops    │
+└──────────────┴─────────┴───────────┴───────────┘
+
+Epidemic routing doesn't have these because:
+- No fixed routes (opportunistic contact-based)
+- No gateway/next-hop (direct transmission when in range)
+- No static metrics (delivery probability based on encounters)
+
+
+THREE WAYS TO VIEW ROUTING INFORMATION:
+=======================================
+
+METHOD 1: NetAnim XML (Simplified View)
+---------------------------------------
+File: emergency-routing-table.xml
+
+This file is generated but contains minimal information because epidemic
+routing has no traditional routing entries. NetAnim will show:
+- Node IDs and timestamps
+- Basic protocol identification
+- "Energy-Aware Epidemic Routing Table" label
+
+To view in NetAnim:
+1. Open NetAnim application
+2. Load: emergency-communication-network.xml (main animation)
+3. Menu: View → Routing Stats
+4. Select node to view its "routing table" (will show protocol name only)
+
+Expected view: Just the protocol name and energy status text
+
+
+METHOD 2: Human-Readable Log File (Recommended!)
+------------------------------------------------
+File: epidemic-routing-info.txt
+
+This file contains detailed protocol status for all nodes, sampled every
+60 seconds. Much more useful than the XML for understanding what's happening!
+
+Contents include:
+- Energy status (percentage, color phase)
+- Adaptive beacon interval
+- Max hops (energy-aware adjustment)
+- Packet buffer status (queue size)
+- Recent node contacts (encounter history)
+- Network interface status
+- Protocol parameters
+
+Example output:
+================================================================
+Node 10.1.1.1 - Energy-Aware Epidemic Routing
+Time: 120s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 75.3%
+  Energy Level: MODERATE (Yellow)
+  Adaptive Beacon Interval: 7.5s
+  Max Hops (Energy-Aware): 7
+
+Packet Buffer Status:
+  Queue Size: 12/50 packets
+  Queue Timeout: 60s
+
+Recent Node Contacts:
+  Node 10.1.1.3 - Last contact: 5.2s ago
+  Node 10.1.1.7 - Last contact: 12.8s ago
+  Node 10.1.1.15 - Last contact: 23.1s ago
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: 5s
+  Host Recent Period: 10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.1 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+To view:
+1. After simulation completes
+2. Open: epidemic-routing-info.txt in any text editor
+3. Search for specific nodes or times
+4. Compare energy levels and buffer status across nodes
+
+
+METHOD 3: Console Logging (Real-Time)
+-------------------------------------
+Enable detailed logging during simulation:
+
+Basic logging:
+NS_LOG="EnergyAwareEpidemicRouting=level_info" ./ns3 run energy-aware-epidemic-example
+
+Detailed logging:
+NS_LOG="EnergyAwareEpidemicRouting=level_debug" ./ns3 run energy-aware-epidemic-example
+
+Full logging (very verbose):
+NS_LOG="EnergyAwareEpidemicRouting=level_all:EpidemicPacketQueue=level_info" \
+./ns3 run energy-aware-epidemic-example
+
+You'll see real-time messages like:
+- "Energy ratio: 0.753, Adaptive beacon interval: 7.5s, Max hops: 7"
+- "Energy critically low (0.087), dropping packet"
+- "Skipping beacon due to critically low energy: 0.045"
+- "Forwarding packet from 10.1.1.3 to 10.1.1.8"
+
+Save to file:
+NS_LOG="EnergyAwareEpidemicRouting=level_info" \
+./ns3 run energy-aware-epidemic-example > routing-log.txt 2>&1
+
+
+UNDERSTANDING THE ROUTING INFORMATION:
+=====================================
+
+1. ENERGY STATUS:
+   - Remaining Energy Ratio: 0-100%
+   - Energy Level: Indicates color phase
+     * NORMAL (Green): >70% - Full operation
+     * MODERATE (Yellow): 40-70% - Starting to adapt
+     * LOW (Orange): 20-40% - Reduced service
+     * CRITICAL (Red): 1-20% - Minimal operation
+     * DEPLETED (Gray): 0% - Node offline
+
+2. ADAPTIVE BEACON INTERVAL:
+   - Normal: 5 seconds
+   - Low energy: 10 seconds (2x)
+   - Critical energy: 20 seconds (4x)
+   - Shows how protocol adapts to conserve energy
+
+3. MAX HOPS (ENERGY-AWARE):
+   - Normal: 10 hops
+   - Low energy: 5 hops (50%)
+   - Critical energy: 2-3 hops (25%)
+   - Limits flooding to conserve energy
+
+4. PACKET BUFFER STATUS:
+   - Queue Size: Current packets buffered
+   - Max capacity: 50 packets
+   - When full, oldest packets dropped
+   - Critical energy: Non-priority packets purged
+
+5. RECENT NODE CONTACTS:
+   - Lists recently encountered nodes
+   - Shows time since last contact
+   - Used to avoid redundant summary vector exchanges
+   - "Recent" period: 10 seconds (configurable)
+
+6. ROUTING MODE:
+   - Always "Opportunistic Store-and-Forward"
+   - No static routes maintained
+   - Packets forwarded when nodes meet
+   - Epidemic flooding with anti-entropy
+
+
+COMPARING WITH TRADITIONAL ROUTING PROTOCOLS:
+=============================================
+
+AODV/OLSR/DSDV (Traditional):
+┌────────────────────────────────────────┐
+│ Routing Table at Node 1                │
+├──────────────┬─────────┬───────────────┤
+│ Destination  │ Next Hop│ Metric        │
+├──────────────┼─────────┼───────────────┤
+│ 10.1.1.5     │ 10.1.1.2│ 2 hops        │
+│ 10.1.1.8     │ 10.1.1.2│ 3 hops        │
+│ 10.1.1.10    │ 10.1.1.3│ 2 hops        │
+└──────────────┴─────────┴───────────────┘
+↑ Shows explicit routes to destinations
+
+EPIDEMIC ROUTING (Opportunistic):
+┌────────────────────────────────────────┐
+│ Buffer/Contact Info at Node 1          │
+├──────────────┬─────────────────────────┤
+│ Buffered Pkt │ Pkt ID: 12345          │
+│              │ Destination: 10.1.1.8  │
+│              │ Hops: 3/10             │
+├──────────────┼─────────────────────────┤
+│ Buffered Pkt │ Pkt ID: 67890          │
+│              │ Destination: 10.1.1.5  │
+│              │ Hops: 1/10             │
+├──────────────┼─────────────────────────┤
+│ Recent       │ Node 10.1.1.3: 5s ago  │
+│ Contacts     │ Node 10.1.1.7: 12s ago │
+└──────────────┴─────────────────────────┘
+↑ Shows buffered packets and contacts
+
+
+WHAT TO LOOK FOR IN THE ROUTING INFO:
+=====================================
+
+HEALTHY NETWORK INDICATORS:
+✓ Energy levels gradually decreasing (not stuck at 100%)
+✓ Sender nodes show lower energy than receivers
+✓ Beacon intervals increasing as energy depletes
+✓ Queue sizes varying (not always 0 or always full)
+✓ Recent contacts list showing different nodes
+✓ Some nodes showing multiple contacts, others isolated
+
+POTENTIAL ISSUES:
+✗ All nodes at 0% energy too quickly (parameters too aggressive)
+✗ All nodes at 100% energy (parameters not applied)
+✗ Queue always at 0 (no packets being buffered - routing not working)
+✗ Queue always at max (packets not being delivered - network disconnected)
+✗ No recent contacts (nodes never meeting - mobility issue)
+✗ Same nodes always in contact (not enough mobility)
+
+
+USING ROUTING INFO FOR ANALYSIS:
+================================
+
+1. ENERGY ANALYSIS:
+   - Compare energy depletion rates across nodes
+   - Identify high-traffic nodes (faster depletion)
+   - Verify adaptive behavior kicks in at thresholds
+   - Check if critical nodes (high connectivity) deplete first
+
+2. BUFFER ANALYSIS:
+   - Track queue occupancy over time
+   - Identify bottleneck nodes (always full queue)
+   - Check if packets expiring (queued too long)
+   - Verify priority-based dropping in low energy
+
+3. CONTACT ANALYSIS:
+   - Identify node pairs with frequent contact
+   - Find isolated nodes (no recent contacts)
+   - Measure contact duration (how long nodes stay in range)
+   - Verify mobility creating contact opportunities
+
+4. ADAPTIVE BEHAVIOR ANALYSIS:
+   - Track beacon interval changes
+   - Monitor hop limit reduction
+   - Observe forwarding probability changes
+   - Verify thresholds triggering adaptations
+
+
+NETANIM ROUTING TABLE ALTERNATIVE:
+==================================
+
+Since NetAnim's routing table view is limited for epidemic routing,
+use these NetAnim features instead:
+
+1. NODE STATISTICS:
+   - Right-click on node
+   - View node properties
+   - See packet statistics
+   - Energy level (from description)
+
+2. PACKET ANIMATION:
+   - Watch packet flow between nodes
+   - Identify active communication pairs
+   - See packet replication (flooding)
+   - Observe delivery when nodes meet
+
+3. NODE DESCRIPTIONS:
+   - Hover over nodes
+   - See "Rescue Worker X [Y%]"
+   - Y% = current energy percentage
+   - Updated in real-time during playback
+
+4. COLOR VISUALIZATION:
+   - Green nodes: High energy, active forwarding
+   - Yellow nodes: Medium energy, starting to adapt
+   - Orange nodes: Low energy, reduced forwarding
+   - Red nodes: Critical energy, minimal forwarding
+   - Gray nodes: Depleted, offline
+
+5. PACKET STATISTICS TABLE:
+   - Menu: Statistics → Packet Statistics
+   - Shows packets sent/received per node
+   - Identifies high-traffic nodes
+   - Delivery ratios
+
+
+TROUBLESHOOTING ROUTING TABLE VIEWING:
+======================================
+
+PROBLEM: Can't see routing table in NetAnim
+SOLUTION: epidemic-routing-table.xml has limited info by design.
+          Use epidemic-routing-info.txt instead for detailed view.
+
+PROBLEM: emergency-routing-table.xml is large but no data in NetAnim
+SOLUTION: File contains XML metadata. Open epidemic-routing-info.txt
+          in text editor for human-readable routing information.
+
+PROBLEM: Routing info shows "No recent contacts" for all nodes
+SOLUTION: - Check that nodes are mobile (not stationary)
+          - Verify transmission range (100m) is reasonable for area (500m)
+          - Increase simulation time to allow more encounters
+          - Check mobility model is working
+
+PROBLEM: All nodes show 0 packets in queue
+SOLUTION: - Verify applications are generating traffic
+          - Check that epidemic routing protocol is installed
+          - Enable logging to see if packets are being created
+          - Verify IP addresses are assigned correctly
+
+PROBLEM: Queue always full (50/50 packets)
+SOLUTION: - Network may be disconnected (nodes never meeting)
+          - Increase mobility or transmission range
+          - Check if destination nodes exist
+          - Packets may be expiring before delivery
+
+
+RECOMMENDED ANALYSIS WORKFLOW:
+==============================
+
+1. RUN SIMULATION:
+   ./ns3 run energy-aware-epidemic-example
+
+2. CHECK CONSOLE OUTPUT:
+   - Verify energy depleting gradually
+   - Confirm packets being transmitted
+   - Note any error messages
+
+3. REVIEW ROUTING INFO LOG:
+   less epidemic-routing-info.txt
+   - Search for specific times: /^Time: 120
+   - Search for specific nodes: /Node 10.1.1.5
+   - Look for energy transitions
+   - Check buffer status patterns
+
+4. OPEN NETANIM:
+   - Load emergency-communication-network.xml
+   - Play simulation
+   - Watch color changes
+   - Observe packet flow
+   - Check node statistics
+
+5. ANALYZE RESULTS:
+   - Compare energy depletion across nodes
+   - Identify communication patterns
+   - Verify adaptive behavior
+   - Measure network fragmentation
+
+
+SAMPLE ANALYSIS COMMANDS:
+=========================
+
+View routing info for a specific node:
+grep -A 30 "Node 10.1.1.5" epidemic-routing-info.txt
+
+View all nodes at specific time:
+grep -B 2 -A 20 "Time: 180s" epidemic-routing-info.txt
+
+Extract energy levels over time:
+grep "Remaining Energy Ratio" epidemic-routing-info.txt
+
+Find critical energy nodes:
+grep -B 5 "CRITICAL (Red)" epidemic-routing-info.txt
+
+Count total routing table dumps:
+grep -c "================================================================" epidemic-routing-info.txt
+
+
+SUMMARY:
+========
+
+✓ epidemic-routing-table.xml: Generated but minimal (NetAnim limitation)
+✓ epidemic-routing-info.txt: Detailed, human-readable (RECOMMENDED!)
+✓ Console logging: Real-time protocol behavior
+✓ NetAnim: Visual packet flow and energy color coding
+
+For detailed routing analysis, use epidemic-routing-info.txt
+For visual understanding, use NetAnim packet animation
+For real-time debugging, use NS_LOG console output
+
+Epidemic routing doesn't have traditional routing tables, so the "routing
+table" actually shows energy status, buffer contents, and contact history,
+which are more relevant for opportunistic DTN protocols.
+
+================================================================================
+For more information, see:
+- ENERGY_AWARE_EPIDEMIC_ROUTING_DOCUMENTATION.txt (main docs)
+- README_ENERGY_DEMO.txt (demo configuration guide)
+- QUICK_REFERENCE.txt (quick start guide)
+================================================================================
