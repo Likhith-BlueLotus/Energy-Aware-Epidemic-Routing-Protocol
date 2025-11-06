@@ -507,12 +507,6 @@ chmod +x ns3
 
 ## 👥 Contributors
 
-### Development Team
-
-- **Likhith (Blue Lotus)** - Project Lead & Implementation
-  - GitHub: [@Likhith-BlueLotus](https://github.com/Likhith-BlueLotus)
-  - Institution: BMS College of Engineering
-
 ### Acknowledgments
 
 - **Mohammed J.F. Alenazi** - Original epidemic routing implementation
