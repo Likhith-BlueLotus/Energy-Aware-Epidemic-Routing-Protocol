@@ -10,24 +10,6 @@ This NS-3 module implements an energy-aware epidemic routing protocol designed f
 
 ---
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Key Features](#key-features)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Quick Start](#quick-start)
-- [Energy Phases](#energy-phases)
-- [Documentation](#documentation)
-- [Example Scenario](#example-scenario)
-- [Results & Visualization](#results--visualization)
-- [Configuration Parameters](#configuration-parameters)
-- [Troubleshooting](#troubleshooting)
-- [References](#references)
-- [Contributors](#contributors)
-
----
-
 ## 🎯 Overview
 
 ### What is Epidemic Routing?
@@ -533,9 +515,6 @@ chmod +x ns3
 
 ### Acknowledgments
 
-- **Claude (Anthropic)** - Co-development & Documentation
-  - Generated with [Claude Code](https://claude.com/claude-code)
-
 - **Mohammed J.F. Alenazi** - Original epidemic routing implementation
   - University of Kansas, ResiliNets Research Group
 
@@ -614,6 +593,6 @@ This project is designed for:
 
 **⭐ If you find this project useful, please star the repository! ⭐**
 
-Made with ❤️ using NS-3 and Claude Code
+Made with ❤️ using NS-3
 
 </div>
