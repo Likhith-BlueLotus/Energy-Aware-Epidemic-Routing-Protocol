@@ -1,0 +1,2488 @@
+=================================================================
+   ENERGY-AWARE EPIDEMIC ROUTING - PROTOCOL STATUS LOG
+=================================================================
+Simulation Time: 600 seconds
+Number of Nodes: 20
+Initial Energy: 1000 Joules
+=================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +120s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 92.0785%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.1 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +120s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 91.1842%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.2 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +120s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 91.7321%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.3 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +120s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 91.726%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.4 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +120s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 92.0791%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.5 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +120s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 86.0522%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.6 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +120s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 91.6603%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.7 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +120s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 91.6929%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.8 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +120s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 91.7901%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.9 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +120s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 92.079%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.10 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +120s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 91.6597%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.11 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +120s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 91.4181%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.12 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +120s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 91.8309%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.13 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +120s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 91.8916%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.14 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +120s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 91.6786%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.15 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +120s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 92.0017%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.16 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +120s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 91.7694%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.17 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +120s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 92.0096%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.18 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +120s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 91.6601%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.19 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +120s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 92.0697%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.20 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +240s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 84.0719%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.1 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +240s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 82.9971%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.2 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +240s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 83.6047%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.3 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +240s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 77.369%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.4 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +240s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 84.1577%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.5 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +240s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 76.6091%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.6 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +240s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 83.5107%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.7 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +240s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 83.7716%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.8 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +240s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 83.8683%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.9 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +240s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 83.2872%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.10 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +240s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 83.7391%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.11 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +240s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 83.4981%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.12 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +240s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 83.5885%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.13 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +240s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 83.6746%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.14 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +240s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 83.417%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.15 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +240s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 84.0815%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.16 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +240s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 83.8494%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.17 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +240s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 83.8996%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.18 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +240s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 83.7395%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.19 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +240s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 84.1497%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.20 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +360s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 75.5911%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.1 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +360s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 75.0765%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.2 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +360s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 75.6567%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.3 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +360s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 68.2762%
+  Energy Level: MODERATE (Yellow)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.4 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +360s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 75.9757%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.5 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +360s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 62.2248%
+  Energy Level: MODERATE (Yellow)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.6 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +360s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 75.5727%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.7 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +360s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 75.3455%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.8 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +360s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 75.8454%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.9 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +360s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 74.4481%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.10 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +360s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 75.8186%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.11 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +360s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 75.5779%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.12 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +360s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 75.2039%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.13 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +360s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 75.7546%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.14 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +360s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 74.8742%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.15 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +360s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 76.0465%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.16 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +360s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 75.9279%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.17 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +360s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 75.9796%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.18 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +360s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 75.8029%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.19 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +360s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 76.1952%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.20 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +480s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 75.3152%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.1 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +480s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 74.6994%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.2 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +480s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 75.1786%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.3 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +480s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 67.6972%
+  Energy Level: MODERATE (Yellow)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.4 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +480s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 75.296%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.5 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +480s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 60.7813%
+  Energy Level: MODERATE (Yellow)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.6 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +480s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 74.6909%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.7 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +480s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 74.3627%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.8 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +480s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 74.7619%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.9 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +480s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 73.2638%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.10 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +480s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 67.8986%
+  Energy Level: MODERATE (Yellow)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.11 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +480s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 67.8357%
+  Energy Level: MODERATE (Yellow)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.12 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +480s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 67.0591%
+  Energy Level: MODERATE (Yellow)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.13 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +480s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 69.971%
+  Energy Level: MODERATE (Yellow)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.14 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +480s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 66.9542%
+  Energy Level: MODERATE (Yellow)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.15 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +480s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 75.1652%
+  Energy Level: NORMAL (Green)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.16 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +480s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 68.31%
+  Energy Level: MODERATE (Yellow)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.17 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +480s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 68.0479%
+  Energy Level: MODERATE (Yellow)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.18 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +480s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 67.5682%
+  Energy Level: MODERATE (Yellow)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.19 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+
+================================================================
+Node 102.102.102.102 - Energy-Aware Epidemic Routing
+Time: +480s
+================================================================
+Energy Status:
+  Remaining Energy Ratio: 67.9956%
+  Energy Level: MODERATE (Yellow)
+  Adaptive Beacon Interval: +0s
+  Max Hops (Energy-Aware): 0
+
+Packet Buffer Status:
+  Queue Size: 0/50 packets
+  Queue Timeout: +60s
+
+Recent Node Contacts:
+  No recent contacts
+
+Routing Protocol Parameters:
+  Max Hop Count: 10
+  Beacon Interval: +5s
+  Host Recent Period: +10s
+
+Network Interfaces:
+  Interface 0: 127.0.0.1 (UP)
+  Interface 1: 10.1.1.20 (UP)
+
+Routing Mode: Opportunistic Store-and-Forward
+  Packets are stored in buffer and forwarded when nodes meet
+  No static routes - uses epidemic flooding with anti-entropy
+================================================================
+

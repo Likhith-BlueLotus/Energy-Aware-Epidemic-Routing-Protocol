@@ -38,6 +38,27 @@ using namespace ns3;
  * Duration: 300 seconds (5 minutes)
  */
 
+// Global counters for PDR calculation
+uint32_t g_totalTx = 0;
+uint32_t g_totalRx = 0;
+
+void RxTrace (std::string context, Ptr<const Packet> packet, const Address &addr)
+{
+  g_totalRx++;
+}
+
+void TxTrace (std::string context, Ptr<const Packet> packet)
+{
+  g_totalTx++;
+}
+
+void PrintPdr ()
+{
+  double pdr = (g_totalTx > 0) ? ((double)g_totalRx / g_totalTx) : 0.0;
+  std::cout << "PDR: " << pdr << " at time " << Simulator::Now ().GetSeconds () << std::endl;
+  Simulator::Schedule (Seconds (10.0), &PrintPdr);
+}
+
 // Energy monitoring class for tracking battery levels
 class EnergyMonitor
 {
@@ -124,7 +145,7 @@ EnergyMonitor::PrintEnergyStats ()
           nodesAlive++;
         }
       
-      std::cout << "Rescue Worker " << i << ": "
+      std::cout << "Node " << i << ": "
                 << "Energy=" << m_currentEnergy[i] << "J (" 
                 << efficiency << "%), "
                 << "Status=" << (m_currentEnergy[i] > 0 ? "OPERATIONAL" : "DEPLETED") 
@@ -472,6 +493,13 @@ int main (int argc, char *argv[])
       Simulator::Schedule (Seconds (t), &Ipv4RoutingHelper::PrintRoutingTableAllAt,
                           Seconds (t), routingStream, Time::Unit::S);
     }
+
+  // Connect PDR traces
+  Config::Connect ("/NodeList/*/ApplicationList/*/$ns3::PacketSink/Rx", MakeCallback (&RxTrace));
+  Config::Connect ("/NodeList/*/ApplicationList/*/$ns3::OnOffApplication/Tx", MakeCallback (&TxTrace));
+
+  // Schedule PDR printing
+  Simulator::Schedule (Seconds (10.0), &PrintPdr);
 
   // Simulation execution
   std::cout << "\nStarting Emergency Communication Network simulation..." << std::endl;

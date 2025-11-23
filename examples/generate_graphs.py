@@ -22,8 +22,8 @@ def parse_energy_log(filename):
     
     with open(filename, 'r') as f:
         for line in f:
-            # Parse: "Node X: Initial=1000J, Remaining=750J"
-            match = re.search(r'Node (\d+):.*Remaining=([\d.]+)J', line)
+            # Parse: "Node X: Energy=1000J, ..." or "Node X: ... Remaining=1000J"
+            match = re.search(r'Node (\d+):.*(?:Energy|Remaining)=([\d.]+)J', line)
             if match:
                 node_id = int(match.group(1))
                 energy = float(match.group(2))
@@ -68,7 +68,7 @@ def plot_energy_consumption(times, node_energy, output_file='energy_consumption.
     plt.legend(loc='upper right', ncol=2, fontsize=10)
     plt.tight_layout()
     plt.savefig(output_file, dpi=300, bbox_inches='tight')
-    print(f"✓ Graph saved: {output_file}")
+    print(f"[OK] Graph saved: {output_file}")
     plt.close()
 
 def plot_average_energy(times, node_energy, output_file='average_energy.png'):
@@ -93,7 +93,7 @@ def plot_average_energy(times, node_energy, output_file='average_energy.png'):
     plt.legend(fontsize=12)
     plt.tight_layout()
     plt.savefig(output_file, dpi=300, bbox_inches='tight')
-    print(f"✓ Graph saved: {output_file}")
+    print(f"[OK] Graph saved: {output_file}")
     plt.close()
 
 def plot_packet_delivery_ratio(times, pdr_values, output_file='pdr_graph.png'):
@@ -112,7 +112,7 @@ def plot_packet_delivery_ratio(times, pdr_values, output_file='pdr_graph.png'):
     plt.legend(fontsize=12)
     plt.tight_layout()
     plt.savefig(output_file, dpi=300, bbox_inches='tight')
-    print(f"✓ Graph saved: {output_file}")
+    print(f"[OK] Graph saved: {output_file}")
     plt.close()
 
 def plot_network_lifetime(node_energy, output_file='network_lifetime.png'):
@@ -136,7 +136,7 @@ def plot_network_lifetime(node_energy, output_file='network_lifetime.png'):
     plt.grid(True, alpha=0.3, linestyle='--', axis='y')
     plt.tight_layout()
     plt.savefig(output_file, dpi=300, bbox_inches='tight')
-    print(f"✓ Graph saved: {output_file}")
+    print(f"[OK] Graph saved: {output_file}")
     plt.close()
 
 def plot_energy_efficiency_comparison(output_file='energy_efficiency.png'):
@@ -164,7 +164,7 @@ def plot_energy_efficiency_comparison(output_file='energy_efficiency.png'):
     plt.grid(True, alpha=0.3, linestyle='--', axis='y')
     plt.tight_layout()
     plt.savefig(output_file, dpi=300, bbox_inches='tight')
-    print(f"✓ Graph saved: {output_file}")
+    print(f"[OK] Graph saved: {output_file}")
     plt.close()
 
 def main():
